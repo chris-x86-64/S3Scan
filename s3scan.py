@@ -2,7 +2,7 @@ import re
 import sys, os
 import httplib2
 import boto3, botocore
-from BeautifulSoup import BeautifulSoup, SoupStrainer
+from bs4 import BeautifulSoup, SoupStrainer
 from optparse import OptionParser
 from botocore.client import Config
 
